@@ -19,11 +19,11 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-  person = Person.new(81, 188, 25, :male)
-  person.bmr #=> 1816
-  person.tdee #=> 2180
+person = Person.new(81, 188, 25, :male)
+person.bmr #=> 1816
+person.tdee #=> 2180
 
-  food = Nutrition::Food.new(10,5,2)
+food = Nutrition::Food.new(10,5,2)
 ```
 
 ## Contributing
