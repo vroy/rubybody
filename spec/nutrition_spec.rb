@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Nutrition do
+describe Rubybody do
   it "should return 150 calories" do
-    f = Nutrition::Food.new(10, 10, 10)
-    f.calories.should eql(150)
+    f = Rubybody::Food.new(10, 10, 10)
+    f.calories.should eql(170)
   end
 end

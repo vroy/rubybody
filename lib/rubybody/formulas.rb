@@ -1,6 +1,6 @@
-module Formulas
-
-  module BMR
+module Rubybody
+  
+  module Formulas
 
     def self.mifflin_st_jeor(weight, height, age, gender)
       
@@ -28,10 +28,6 @@ module Formulas
 
     end
 
-  end
-
-  module TDEE
-
     def self.typical(bmr, activity_level)
 
       case activity_level.to_sym
@@ -52,5 +48,4 @@ module Formulas
     end
 
   end
-
 end

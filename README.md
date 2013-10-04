@@ -1,6 +1,6 @@
 # Rubybody
 
-TODO: Write a gem description
+Rubybody provides calculations like TDEE, BMR and food calorie calculations
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+    person = Person.new(81, 188, 25, :male)
+    person.bmr #=> 1816
+    person.tdee #=> 2180
+
+    food = Nutrition::Food.new(10,5,2)
+
 
 ## Contributing
 
