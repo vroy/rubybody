@@ -1,6 +1,6 @@
 # Rubybody
 
-Rubybody provides calculations like TDEE, BMR and food calorie calculations
+Rubybody provides calculations like Total Daily Energy Expenditure (TDEE), Basal metabolic rate (BMR) and food calorie calculations
 
 ## Installation
 
